@@ -28,3 +28,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.title {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px 42px;
+}
+
+.item {
+  background: yellow;
+}
